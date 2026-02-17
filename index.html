@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Neighborhood Cats</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header role="banner" class="siteHeader">
+      <h1>Neighborhood Cats</h1>
+
+      <nav role="navigation" aria-label="Main navigation">
+        <ul class="navList">
+          <li><a href="index.html" title="Home">Home</a></li>
+          <li><a href="cats.html" title="Meet the cats">Meet the Cats</a></li>
+          <li><a href="tnr.html" title="Learn about TNR">TNR &amp; Community Cats</a></li>
+          <li><a href="colors.html" title="Cat coat colors">Coat Colors &amp; Gender</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main role="main">
+      <article role="article">
+        <header>
+          <p class="intro">
+            Welcome to my personal site about cats, especially the cats in my
+            neighborhood. This site is about Tina, Gina, and Ginger, plus
+            community cat care like <strong>TNR</strong>
+            (Trap-Neuter-Return), and coat colors.
+          </p>
+
+          <p class="callouts">
+            Jump to a section:
+            <a href="#meet">Meet the Cats</a> |
+            <a href="#why">Why Community Cats Matter</a> |
+            <a href="#photos">Photos</a>
+          </p>
+        </header>
+
+        <section id="meet">
+          <h3>Meet the Cats</h3>
+          <ul>
+            <li><strong>Tina</strong> — a tortoiseshell cat who has been TNR’d.</li>
+            <li><strong>Gina</strong> — a big orange cat, neighbor says female; but I think it might be male.</li>
+            <li><strong>Ginger</strong> — another orange cat, feral but loves to eat</li>
+          </ul>
+
+          <p>
+            More details? Go to
+            <a href="cats.html" title="Meet the cats page">Meet the Cats</a>.
+          </p>
+        </section>
+
+        <section id="why">
+          <h3>Why Community Cats Matter</h3>
+          <p>
+            Community cats are outdoor cats that may not have a single “owner,”
+            but they still deserve safety and care. One of the best ways to help
+            is <em>TNR</em> Trap, Neuter, Return because it helps reduce kittens
+            over time and improves the health of local cat colonies.
+          </p>
+
+          <p>
+            Learn more on the
+            <a href="tnr.html" title="TNR page">TNR &amp; Community Cats</a>
+            page.
+          </p>
+        </section>
+
+        <section id="photos">
+          <h3>Photos</h3>
+          <p>a few pictures of Tina, Gina, and Ginger.</p>
+
+            <figcaption><strong>Tina</strong></figcaption>
+            <img
+            src="images/tinaandguapa.jpg"
+            alt="Tina the tortoiseshell cat"
+            width="360"
+            height="370"
+            class="photoCard img"
+          />
+            
+          
+
+            <figcaption><strong>Gina</strong></figcaption>
+            <img
+              src="images/gina.jpg"
+              alt="Gina the orange cat"
+              width="280"
+              height="240"
+              class="photoCard img"
+            />
+            
+          
+
+            <figcaption><strong>Ginger</strong></figcaption>
+            <img
+              src="images/gingercat.jpg"
+              alt="Ginger the orange cat"
+              width="280"
+              height="240"
+              class="photoCard img"
+            />
+            
+          
+        </section>
+
+        <section id="form">
+          <h3>do you have a cat?</h3>
+
+          <form action="#">
+              <!-- The input element creates a field, the user can type text, numbers-->
+              <!-- The placeholder attribute shows temporary text inside the input box until the user types. --> 
+              <!-- The required attribute forces the user to fill in the field before submitting a form. -->
+              <input type="text"placeholder="Enter your name" required>
+            
+                <select id="cat" required>
+                <!-- Each <option> defines a single choice that appears in the dropdown list for the user to select. -->
+                <option value="" disabled selected>
+                  do you have a cat?
+                </option>
+
+                <option value="yes">yes</option>
+                <option value="no">no</option>
+              </select>
+              <!-- The button element creates a button that can submit forms or other actions. -->  
+              <button type="submit">Submit Form</button>
+              <button type="reset">Clear</button>
+              
+           
+          </form>
+                
+
+              
+            
+      </article>
+
+      <aside role="complementary" class="asideBox">
+        <h3>cool Fact</h3>
+        <p>
+          Tortoiseshell cats are <strong>usually female</strong>, and orange
+          cats are <strong>often male</strong>. (Learn more on the color
+          page)
+        </p>
+        <p>
+          <a href="colors.html" title="Coat colors page"
+            >Go to Coat Colors &amp; Gender</a
+          >
+        </p>
+      </aside>
+    </main>
+
+    <footer role="contentinfo" class="siteFooter">
+      <p>&copy; 2026 Neighborhood Cats</p>
+      <p>
+        External resource:
+        <a href="https://fixnation.org" target="_blank" 
+          >FixNation (TNR info)</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
